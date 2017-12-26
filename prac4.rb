@@ -4,7 +4,7 @@ puts "total number is: #{num}"
 array=Array.new(num)
 even=0
 odd=0
-for i in 1..num
+(0...5).each do |i|
 	array[i]=gets.chomp.to_i
 	if(array[i]%2==0)
 		even+=1
