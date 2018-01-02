@@ -5,7 +5,12 @@ module Foo
 end
 
 class Bar
+<<<<<<< HEAD
   puts "gshghsdgfhsgdjfh"  
+=======
+  include Foo
+  puts "asd"
+>>>>>>> d04fc12de219cd301169d72a6c88377babcf95aa
 end
 
 Bar.new.foo # heyyyyoooo!
