@@ -5,7 +5,7 @@ module Foo
 end
 
 class Bar
-  include Foo
+  puts "gshghsdgfhsgdjfh"  
 end
 
 Bar.new.foo # heyyyyoooo!
