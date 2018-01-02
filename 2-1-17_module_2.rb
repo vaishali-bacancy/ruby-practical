@@ -6,6 +6,7 @@ end
 
 class Bar
   include Foo
+  puts "asd"
 end
 
 Bar.new.foo # heyyyyoooo!
